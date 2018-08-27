@@ -1,0 +1,13 @@
+var filters = {
+  getRating:function(value){
+    return "rating"+Math.round(value)*5+"-t";
+  },
+   toFix: function (value) {
+    return value.toFixed(1)//此处2为保留两位小数
+  }
+}
+
+module.exports = {
+  getRating: filters.getRating,
+  toFix: filters.toFix
+}

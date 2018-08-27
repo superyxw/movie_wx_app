@@ -1,0 +1,10 @@
+/* pages/detail/detail.wxss */
+.detail_container{
+  padding: 8px;
+}
+
+.mainpic{
+  width: 135px;
+  height: 232px;
+}
+

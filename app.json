@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/list/list",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#072",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle": "light"
+  }
+}

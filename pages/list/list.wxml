@@ -1,0 +1,13 @@
+<!--pages/list/list.wxml-->
+<wxs module="filters" src="./list.wxs"></wxs>
+
+<view wx:for="{{movies}}" wx:key="{{item.id}}" data-index="{{index}}" class ="movie_item" bindtap="goDetail">
+  <image class="image" src="{{item.images.small}}"></image>
+  <view class="movie_info">
+    <text class="title">{{item.title}}</text>
+    <view class="star">
+      <text class="{{filters.getRating(item.rating.average)}}"></text>
+      <text class="rating_num">{{filters.toFix(item.rating.average)}}</text>
+    </view>
+  </view>
+</view>

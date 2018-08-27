@@ -1,0 +1,59 @@
+/* pages/list/list.wxss */
+.movie_item {
+    margin: 8px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #cccccc;
+    position: relative;
+    display: block;
+    padding: 8px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 64px;
+    height: 100px;
+    margin-right: 15px;
+    background-color: #eeeeee;
+    float: left;
+}
+
+.movie_info {
+  float: left
+}
+
+.title {
+  font: 12px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  color: #669;
+}
+
+.rating10-t, .rating15-t, .rating20-t, .rating25-t, .rating30-t, .rating35-t, .rating40-t, .rating45-t, .rating50-t, .rating-t{
+      display: inline-block;
+    zoom: 1;
+    background: url(https://img3.doubanio.com/f/shire/b8f4c3672ef81106701071831e22422a745d3b74/pics/rating_icons/ic_rating_s.png) no-repeat;
+   
+    width: 55px;
+    height: 11px;
+    margin: 0 3px 0 0;
+    overflow: hidden;
+}
+
+.rating50-t {
+    background-position: 0 0px;
+}
+
+.rating45-t {
+    background-position: 0 -11px;
+}
+
+.rating40-t{
+    background-position: 0 -22px;
+}
+
+.rating_num {
+    color: #e09015;
+    padding: 0 5px 0 0;
+    font-size: 12px;
+}
